@@ -35,11 +35,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
-       /* guard let refObjects = ARReferenceObject.referenceObjects(inGroupNamed:"arobjects",bundle: nil) else {
-            fatalError("Missing expected asset resources.")
-        }
-        
-        configuration.detectionObjects = refObjects*/
         sceneView.debugOptions = [ARSCNDebugOptions.showWireframe,
                                   ARSCNDebugOptions.showSkeletons,
                                   ARSCNDebugOptions.showBoundingBoxes,
